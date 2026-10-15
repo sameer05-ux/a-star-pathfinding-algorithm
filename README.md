@@ -1,14 +1,12 @@
-# a-star-pathfinding-algorithm
+# A* Pathfinding Visualizer
 
-##DESCRIPTION
-An implementation of the A* pathfinding algorithm utilising the octile 8-way movement system to calculate the heuristic. Allows users to find the shortest path in a 20x20 grid from a starting node to a target node and then visually display the 
-path via the command line.
+## Description
+An implementation of the A* pathfinding algorithm utilising the octile 8-way movement system to calculate the heuristic. It allows users to find the shortest path in a 20x20 grid from a starting node to a target node and visually display the path via the command line.
 
-##FEATURES
-- Allows users to enter a target node and a start node via the command line for the algorithm to find the shortest path between
-- Uses the octile distance heuristic function to estimate (without overestimating) the distance between the current node and target node
-- Graphically displays the 20x20 grid via the command line as well as highlighting the shortest path
+## Features
+- Allows users to enter a start node and a target node via the command line to compute the shortest path.
+- Uses the octile distance heuristic function to accurately estimate whilst never overestimating the distance between the current node and target node.
+- Graphically displays the 20x20 grid via the command line, highlighting the computed shortest path.
 
-  ##PREREQUISITES
-  - Python (preferably version 3.x)
-    
+## Prerequisites
+- Python (version 3.x recommended)
